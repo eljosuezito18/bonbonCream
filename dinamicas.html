@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/conejo_ico.png" type="image-icon">
+    <link rel="stylesheet" href="dinamicas.css">
+    <title>Dinamicas</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Compras</title>
+</head>
+<body>
+    <div class="catalogo">
+        <div class="articulo">
+            <h2>Bola de la suerte</h2>
+            <p>Que la suerte ellija tu premio.</p>
+            <button onclick="redireccion('ruleta.html')">Entra</button>
+        </div>
+
+        <div class="articulo">
+            <h2>Confesionario</h2>
+            <p>CUentanos tu confesión, todo es anónimo.</p>
+            <button onclick="redireccion('pagina_principal.html')">Entra</button>
+        </div>
+
+        <div class="articulo">
+            <h2>Presentaciones</h2>
+            <p>Aquí estarán sus presentaciones</p>
+            <button onclick="redireccion('pagina_principal.html')">Entra</button>
+        </div>
+
+        <div class="articulo">
+            <h2>Solicitudes de juegos</h2>
+            <p>¿Te gustaría que Bonbon juegue tu juego favorito?</p>
+            <button onclick="redireccion('pagina_principal.html')">Entra</button>
+        </div>
+
+        <div class="articulo">
+            <h2>FanFic</h2>
+            <p><em>PROXIMAMENTE</em></p>
+            <button onclick="redireccion('pagina_principal.html')">Entra</button>
+        </div>
+
+        <div class="articulo">
+            <h2>Conoce a Bonbon</h2>
+            <p>Cosas que no sabías de Bonbon</p>
+            <button onclick="redireccion('pagina_principal.html')">Entra</button>
+        </div>
+    </div>
+
+
+    <button onclick="goBack()" class="olaola">Regresar</button>
+
+    <script>
+        function redireccion(destino) {
+            // Redirige al destino especificado
+            window.location.href = destino;
+        }
+    </script>
+
+    <script>
+    function goBack() {
+        // Regresa a la página anterior en el historial del navegador
+        window.history.back();
+    }
+    </script>
+</body>
+</html>
+
+</body>
+</html>

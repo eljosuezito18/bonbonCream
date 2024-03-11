@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/conejo_ico.png" type="image-icon">
+    <title>Ruleta de premios</title>
+    <link rel="stylesheet" href="ruleta.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container">
+            <h1>Elige un círculo</h1>
+            <div id="password-container">
+                <button onclick="checkPassword()">Ingresar</button>
+        </div>
+        <div class="circles">
+            <div class="circle" onclick="revealPrize('saludo')"></div>
+            <div class="circle" onclick="revealPrize('zing')"></div>
+            <div class="circle" onclick="revealPrize('jugar')"></div>
+            <div class="circle" onclick="revealPrize('playlist')"></div>
+            <div class="circle" onclick="revealPrize('decide')"></div>
+            <div class="circle" onclick="revealPrize('nada')"></div>
+            <div class="circle" onclick="revealPrize('timeout')"></div>
+        </div>
+    </div>
+    
+    <div id="result"></div>
+    
+<script src="ruleta.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: #FF99FF;
+    background: linear-gradient(to right, #9999ff, #66ccff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nicopromaster img{
+
+    align-content: center;
+}

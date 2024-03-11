@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FF99FF;
+    background: linear-gradient(to right, #9999ff, #66ccff);
+}
+
+.calendar {
+    width: 345px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #fff;
+}
+
+.month {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #512da8;
+    color: #fff;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.day {
+    padding: 10px;
+    height: 30px; 
+    line-height: 30px; 
+    border: 1px solid transparent;
+}
+
+.cumpleanos{
+        padding: 10px;
+        width: 5px; 
+        height: 5px;
+        margin-top: 10px;
+    margin-left: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+        background-color: blue;
+        border-radius: 50%;
+}
+
+.day.empty {
+    visibility: hidden;
+}
+
+.calendar:nth-child(3n+1) {
+    clear: both;
+}
+
+
+.olaola {
+    display: block;
+    margin: 20px auto; /* Centra horizontalmente */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative; /* Asegúrate de que el elemento tenga una posición relativa o absoluta */
+    top: -20px;
+}
+
+.olaola:hover {
+    background-color: #0056b3;
+}
